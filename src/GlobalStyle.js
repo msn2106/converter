@@ -176,4 +176,12 @@ input, textarea{
         }
     }
 
+
+.features {
+  padding: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+
 `;

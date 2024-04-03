@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <Wrapper>
-        <section className='contact-short'>
+        {/* <section className='contact-short'>
           <div className='grid grid-two-column'>
             <div>
               <h3>Ready to get started?</h3>
@@ -21,7 +21,7 @@ const Footer = () => {
               </Button>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* footer section */}
 
         <footer>
