@@ -184,4 +184,19 @@ input, textarea{
   justify-content: space-evenly;
 }
 
+.reqrescontainers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.requestBody {
+
+}
+
+.submitBtn {
+  display: flex;
+  justify-content: center;
+}
+
 `;
