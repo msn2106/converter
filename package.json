@@ -1,0 +1,16 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "description": "convert csv 2 json and vice-versa and excel 2 json and vice-versa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "xlsx"
+  ],
+  "author": "mayank",
+  "license": "ISC"
+}
