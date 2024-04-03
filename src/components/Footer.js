@@ -28,7 +28,10 @@ const Footer = () => {
           <div className='container grid grid-four-column'>
             <div className='footer-about'>
               <h3>Converter</h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+              <p><NavLink to="/converter/json2csv" style={{textDecoration:'none', color: 'white'}}>JSON to CSV</NavLink></p>
+              <p><NavLink to="/converter/json2xlsx" style={{textDecoration:'none', color: 'white'}}>JSON to XLSX</NavLink></p>
+              <p><NavLink to="/converter/csv2json" style={{textDecoration:'none', color: 'white'}}>CSV to JSON</NavLink></p>
+              <p><NavLink to="/converter/xlsx2json" style={{textDecoration:'none', color: 'white'}}>XLSX to JSON</NavLink></p>
             </div>
             <div className='footer-subscribe'>
               <h3>Subscribe to get important updates</h3>
@@ -63,8 +66,8 @@ const Footer = () => {
             <div className='container grid grid-two-column '>
               <p>@{new Date().getFullYear()} Converter. All Rights Reserved</p>
               <div>
-                <p>PRIVACY POLICY</p>
-                <p>TERMS & CONDITIONS</p>
+                <span>PRIVACY POLICY</span> nbsp; nbsp;
+                <span>TERMS & CONDITIONS</span>
               </div>
             </div>
           </div>
@@ -75,10 +78,10 @@ const Footer = () => {
 };
 
 const Wrapper = styled.section`
-  .iSIFGq {
-    margin: 0;
-  }
-
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
   .contact-short {
     max-width: 60vw;
     margin: auto;
@@ -95,13 +98,16 @@ const Wrapper = styled.section`
   }
 
   footer {
-    padding: 14rem 0 9rem 0;
+    padding: 4rem 0 3rem 0;
     background-color: ${({ theme }) => theme.colors.footer_bg};
     h3 {
       color: ${({ theme }) => theme.colors.hr};
       margin-bottom: 2.4rem;
     }
     p {
+      color: ${({ theme }) => theme.colors.white};
+    }
+    span {
       color: ${({ theme }) => theme.colors.white};
     }
     .footer-social--icons {
@@ -146,7 +152,7 @@ const Wrapper = styled.section`
     }
 
     footer {
-      padding: 9rem 0 9rem 0;
+      padding: 1rem 0 1rem 0;
     }
 
     .footer-bottom--section {
