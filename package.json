@@ -22,7 +22,8 @@
     "react-scripts": "5.0.1",
     "read-excel-file": "^5.7.1",
     "styled-components": "^6.1.8",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
