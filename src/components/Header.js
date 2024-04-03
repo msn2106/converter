@@ -8,8 +8,10 @@ const Header = () => {
   return (
     <MainHeader>
       <NavLink to="/converter">
-        <SiConvertio />
-        <h2> Converter</h2>
+        <div style={{display:'flex'}}>
+          <SiConvertio fontSize="5em"/>
+          <h2> Converter</h2>
+        </div>
       </NavLink>
       {/* <Nav /> */}
     </MainHeader>
