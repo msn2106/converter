@@ -42,7 +42,7 @@ const JSON2CSV = () => {
         </div>
         <div className='convertedResult'>
           <p>CSV output:</p>
-          <textarea id="csvOutput" rows="10" cols="50" placeholder="CSV data will appear here"></textarea>
+          <textarea id="csvOutput" rows="10" cols="50" placeholder="CSV data will appear here" readOnly></textarea>
         </div>
       </div>
       <div className="submitBtn">

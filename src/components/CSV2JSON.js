@@ -28,11 +28,11 @@ const CSV2JSON = () => {
       <div className="reqrescontainers">
         <div className="requestBody">
           <p>Convert a CSV file to JSON format.</p>
-          <textarea id="csvInput" rows="10" cols="50"></textarea>
+          <textarea id="csvInput" rows="10" cols="50" placeholder="Enter CSV data here"></textarea>
         </div>
         <div className='convertedResult'>
           <p>JSON output:</p>
-          <textarea id="jsonOutput" rows="10" cols="50" readOnly></textarea>
+          <textarea id="jsonOutput" rows="10" cols="50" placeholder="CSV data will appear here" readOnly></textarea>
         </div>
       </div>
       <div className="submitBtn">
