@@ -25,7 +25,6 @@ const CSV2JSON = () => {
   }
   return (
     <>
-      <div>CSV2JSON</div>
       <div className="reqrescontainers">
         <div className="requestBody">
           <p>Convert a CSV file to JSON format.</p>
